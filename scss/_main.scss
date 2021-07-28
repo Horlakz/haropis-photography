@@ -18,10 +18,10 @@
 }
 
 #landing-image {
-    background: url(showcase.jpeg);
+    background: url("../images/showcase.jpeg");
     background-position: center;
     background-size: cover;
-    background: no-repeat;
+    background-repeat: no-repeat;
     height: 50vh;
     flex: 0 1 60vw;
     margin: 0;

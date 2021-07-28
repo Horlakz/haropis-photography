@@ -36,7 +36,7 @@
 }
 
 #call:hover {
-  background: red;
+  background: #289fce;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0, 0, 0, 0.1);
   color: white;
   width: 7rem;
@@ -50,7 +50,7 @@
 
 #mail:hover {
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0, 0, 0, 0.1);
-  background: blue;
+  background: #eb3232;
   color: white;
   width: 7rem;
 }
@@ -106,10 +106,10 @@ main {
 }
 
 #landing-image {
-  background: url(#);
+  background: url("../images/showcase.jpeg");
   background-position: center;
   background-size: cover;
-  background: no-repeat;
+  background-repeat: no-repeat;
   height: 50vh;
   flex: 0 1 60vw;
   margin: 0;
