@@ -1,0 +1,22 @@
+// 500px and up 
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh
+    }
+}
+
+// 700px and up 
+@media (min-width:700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}

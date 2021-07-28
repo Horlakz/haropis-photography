@@ -1,0 +1,57 @@
+.btn {
+    padding: 0.5rem 1rem;
+    border: 1px #ccc solid;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 1rem 0 0;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+    transition: box-shadow 400ms ease;
+
+    &:hover {
+        background: #f4f4f4;
+        width: 6rem;
+        box-shadow: 5px 0px 4px rgba(0,0,0,0.1), -4px 0px 12px rgba(0,0,0,0.1);
+
+    }
+}
+
+.contact {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px #ccc solid;
+    width: 6rem;
+    text-decoration: none;
+    color: #333;
+    transition: background 800ms ease;
+    transition: background 800ms ease;
+    transition: width 350ms ease;
+}
+
+#insta:hover {
+    background: linear-gradient(45deg, #FFDC80, #FCAF45, #F77737, #F56040, #FD1D1D, #E1306C, #C13584, #833AB4, #5B51D8, #405DE6);
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0,0,0,0.1);
+    color: white;
+    width: 7rem;
+}
+
+#call:hover {
+    background: red;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0,0,0,0.1);
+    color: white;
+    width: 7rem;
+}
+
+#whatsapp:hover {
+    background: radial-gradient(#ffffff, #25D366);
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0,0,0,0.1);
+    width: 7rem;
+}
+
+#mail:hover {
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.226), -4px 0px 12px rgba(0,0,0,0.1);
+    background: blue;
+    color: white;
+    width: 7rem;
+}
