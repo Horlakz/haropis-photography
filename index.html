@@ -8,6 +8,8 @@
     <meta property ="og:description" content="Beautiful Natural Photography">
     <meta property ="og:image" content="images/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.css">
     <title>Haropis Photography</title>
 </head>
 <body>
@@ -26,7 +28,7 @@
             <div id="landing-image"></div>
         </div>
 
-        <div id="images">
+        <div id="images-vertical">
             <div id="header">
                 <h2>Our Work</h2>
             </div>
@@ -57,7 +59,64 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates veritatis nostrum aliquam nulla possimus odit fugit in molestias.</p>
             </div>
         </div>
+
+        
     </main>
+
+    <section id="slider">
+        <div id="images">
+            <div id="header">
+                <h2>Our Work</h2>
+                <small>click on the arrows to scroll through pictures</small>
+            </div>
+
+            <div class="slider-container">
+                <div class="left-slide">
+                    <div style="background-color: #22572f;">
+                        <h1>Nature Trees</h1>
+                        <p>all in pink</p>
+                    </div>
+                    <div style="background-color: #a89025;">
+                        <h1>Unilag Mosque</h1>
+                        <p>with it's beautiful trees</p>
+                    </div>
+                    <div style="background-color: #6d6d5e;">
+                        <h1>Lonely Road</h1>
+                        <p>high above the ground</p>
+                    </div>
+                    <div style="background-color: #bd8745;">
+                        <h1>Senate Building</h1>
+                        <p>in the sky</p>
+                    </div>
+                    <div style="background-color: #3f3222;">
+                        <h1>Unilag Chapel</h1>
+                        <p>in the sky</p>
+                    </div>
+                </div>
+        
+                <div class="right-slide">
+                    <div style="background-image: url('images/fifth.jpeg')"></div>
+                    <div style="background-image: url('images/fourth.jpeg')"></div>
+                    <div style="background-image: url('images/third.jpeg')"></div>
+                    <div style="background-image: url('images/second.jpeg')"></div>
+                    <div style="background-image: url('images/first.jpeg')"></div>
+                </div>
+        
+                <div class="action-buttons">
+                    <button class="down-button">
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <button class="up-button">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+        
+            </div>
+
+        </div>
+    </section>
+
+    
 
     <section id="contact">
         <h3>Get In Touch</h3>
@@ -74,7 +133,7 @@
         <p>Designed by <a href="https://horlakz.github.io/bootcamp-developer-portfolio" target="_blank">Horlakz</a></p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

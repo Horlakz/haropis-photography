@@ -129,6 +129,10 @@ main {
   padding-right: 1rem;
 }
 
+#header small {
+  display: inline-block;
+}
+
 .caption {
   padding: 0.8rem;
   text-align: center;
@@ -185,4 +189,15 @@ footer {
 footer a {
   color: blue;
   text-decoration: none;
+}
+
+#images-vertical {
+  display: none;
+}
+
+@media (max-width:700px) {
+  .section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
